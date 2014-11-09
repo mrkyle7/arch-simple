@@ -30,7 +30,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Bridged networks make the machine appear as another physical device on
   # your network.
 config.vm.network "public_network", type: "dhcp"
-config.vm.hostname = "simple-arch"
+config.vm.hostname = "arch-simple"
 
   # If true, then any SSH connections made will enable agent forwarding.
   # Default value: false
